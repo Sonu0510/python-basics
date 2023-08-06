@@ -1,0 +1,2 @@
+Previous content is erases with this content
+Adding extra lines in this file with append method
