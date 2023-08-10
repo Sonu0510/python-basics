@@ -7,6 +7,35 @@ On the other hand, if you just want to display some information or output during
 """
 
 
+# CONCEPT OF LAMBDA FUNCTION(Anonymous function)
+# def sq_func(x):
+#     return x**2
+
+# print(sq_func(3))
+
+# lambda_sq_func = lambda x: x**2
+# lambda_sq_func(3)
+
+
+# CONCEPT OF MAP FUNCTION
+s_list = [1, 2, 3, 4, 5]
+# sq_list = []
+# for item in s_list:
+#     sq_list.append(item**2)
+
+# print(sq_list)
+
+map_obj = list(map(lambda x: x**2, s_list))
+# map_obj = list(map(sq_func, s_list))
+# print(map_obj)
+
+# Filter Function
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(list(filter(lambda x: x % 2 == 0, numbers)))
+
+
+
 import math
 # RETURN STATEMENTS SCENARIOS
 
